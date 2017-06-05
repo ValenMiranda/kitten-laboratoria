@@ -1,17 +1,15 @@
-@media(min-width: 535px) and (max-width: 824px){
-	[class*="col-"]{
-		width: 100%;
-	}
-	body{
-		background-image: url('../img/dawn.png');
+@media (min-width: 800px){
+	.contenedor{
+		background-image: url(../img/Landscape.jpg);
 	}
 }
-
-@media(min-width: 200px) and (max-width: 534px){
-	[class*="col-"]{
-		width: 100%;
+@media (max-width: 799px) and (min-width: 500px){
+	.contenedor{
+		background-image: url(../img/dawn.png);
 	}
-	body{
-		background-image: url('../img/maxresdefault.jpg');
+}
+@media (max-width: 499px) and (min-width: 1px){
+	.contenedor{
+		background-image: url(../img/maxresdefault.jpg);
 	}
 }
