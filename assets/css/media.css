@@ -1,15 +1,18 @@
 @media (min-width: 800px){
-	.contenedor{
-		background-image: url(../img/Landscape.jpg);
+	[class*="col-"]{
+		width: 100%;
 	}
-}
-@media (max-width: 799px) and (min-width: 500px){
-	.contenedor{
-		background-image: url(../img/dawn.png);
-	}
-}
-@media (max-width: 499px) and (min-width: 1px){
-	.contenedor{
+	body{
 		background-image: url(../img/maxresdefault.jpg);
 	}
 }
+
+@media (min-width: 500px) and (max-width: 799px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background-image: url(../img/Landscape.jpg);
+	}
+}
+
